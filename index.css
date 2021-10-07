@@ -1,0 +1,70 @@
+
+body {
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    background-image: url('https://media0.giphy.com/media/l1KVbm0mSaD4ZbFUk/200.gif?cid=4b7dbba10ydwslbmf58t768bb5tm89ujgq5myjj8f8mwmu7r&rid=200.gif&ct=g');
+ }
+
+    #btn {
+    background:darkslategray;
+    height: 45px;
+    min-width: 120px;
+    border:none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+    #btn #circle {
+    height: 5px;
+    width: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+
+    #input {
+    background: white;
+    height: 45px;
+    width: 300px;
+    border:none;
+    border-radius: 10px;
+    color: pink;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+
+a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: white;
+
+}
+
+#container{
+    background-color:lightsalmon;
+    margin-top: 150px;
+    margin-left: 410px;
+    height: 150px;
+    width: 650px;
+    border-radius: 30px;
+}
+#inputcontainer{
+     margin-left: 100px;
+}
